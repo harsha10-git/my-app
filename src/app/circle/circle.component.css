@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+}
+.parent{
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+}
+.child{
+    height: 60%;
+    width: 20%;
+    background-color: white;
+    margin-right: 75%;
+    margin-bottom: 15%;
+}
+h1{
+    color: dark black;
+    text-align: center;
+    font-weight: bolder;
+
+}
+label{
+    text-transform:capitalize;
+    padding: 120px;
+    font-weight: bolder;
+}
+input{
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 80%;
+}
+button{
+    padding: 5px;
+    margin-left: 20px;
+    width: 85%;
+    margin-top: 30px;
+    background-color: rgb(13, 49, 210);
+    color: white;
+    font-weight: bolder;
+    text-transform: capitalize;
+}

@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+
+}
+.parent{
+    height: 100%;
+    width: 100%;
+    background-color:aquamarine;
+    display: flex;
+
+}
+.child1{
+    height: 100%;
+    width: 20%;
+    background-color:lightblue ;
+}
+.child2{
+    height: 100%;
+    width: 80%;
+    background-color:lightcoral ;
+    overflow: auto;
+}
+h2{
+    text-transform: capitalize;
+    margin-left:20px ;
+    padding: 20px;
+}
+button{
+    margin-left: 30px;
+    border-radius: 10px;
+    padding: 15px;
+    width: 50%;
+    background-color: brown;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
